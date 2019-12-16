@@ -7,17 +7,17 @@ Gateway service adalah gateway dari end user untuk dapat mengakses seluruh servi
 3. Springboot
 4. Mysql
 
-#Running gateway service
+# Running gateway service
 1. mvn clean install
 2. cd target
 3. java -jar gatewayservice.0.0.1-snapshot
 
 
-#Swagger
+# Swagger
 1. Akses localhost:8081/api/api-document/swagger-ui.html
 2. Pilih Service yang ingin ditest
 
-#Service tercover:
+# Service tercover:
 1. Register
 localhost:8081/api/api-register/register
 
@@ -28,7 +28,7 @@ localhost:8081/common/login
 localhost:8081/api/api-group/{namaservice}
 
 
-#Initialisasi DB
+# Initialisasi DB
 1. Create DB insert arisanonline
 2. Running seluruh service
 2. insert Value Role
@@ -38,4 +38,4 @@ INSERT INTO `role` (`id`, `role_name`) VALUES
 
 
 
-#SELAMAT MENCOBA
+# SELAMAT MENCOBA
