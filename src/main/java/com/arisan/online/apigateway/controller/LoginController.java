@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.arisan.online.apigateway.dto.LoginDto;
 import com.arisan.online.apigateway.service.LoginService;
-import com.arisan.online.apigateway.service.UserService;
 import com.arisan.online.apigateway.util.ConstantsVariable;
 
 import net.minidev.json.JSONObject;
